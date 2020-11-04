@@ -1,0 +1,111 @@
+@import "../core/varibles";
+
+.about-page-content{
+    padding-top: 200px;
+    .container{
+        width: 65%;
+        margin: 0 auto;
+        position: relative;
+        img.b__about{
+            position:absolute ;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            max-width: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            image-rendering: auto;
+        }
+        h2{
+            color: $white-color;
+            font-size: 105px;
+            text-transform: uppercase;
+            font-weight: 900;
+            padding: 100px 0 100px 200px;
+            &.is-inview {
+                >.word {
+                    overflow: hidden;
+                    >.word-inner {
+                        animation: slideup 1s;
+                        animation-delay:1.5s;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        p{
+            color: $white-color;
+            padding-left: 300px;
+            font-size: 45px;
+            line-height: 1.4;
+            &.is-inview {
+                >.word {
+                    overflow: hidden;
+                    >.word-inner {
+                        animation: slideup 1s;
+                        animation-delay:1.5s;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .about__list-services{
+            margin-top: 100px;
+            position: relative;
+            width: 100%;
+            padding: 0 30px;
+            background-color: transparent;
+            p.title{
+                position: absolute;
+                left: 0;
+                top: 0;
+                color:$white-color;
+                font-size: 25px;
+                padding: 0;
+                transform: rotate(-90deg) translate(-42%, -270%);
+            }
+            .exp__row{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 240px;
+                a{
+                    font-size: 60px;
+                    color: $white-color;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    &.is-inview {
+                        >.word {
+                            overflow: hidden;
+                            >.word-inner {
+                                animation: slideup 1.5s;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                .exp__row-text{
+                    column-width: auto;
+                    column-count: 2;
+                    opacity: 0;
+                    &.is-inview{
+                        opacity: 1;
+                        transition: all 1.5s;
+                    }
+                    p{
+                        font-size: 18px;
+                        padding: 0;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+//@keyframes slideup {
+//    from{
+//        transform: translateY(100px);
+//    }
+//    to{
+//        transform: translateY(0);
+//    }
+//}

@@ -1,0 +1,56 @@
+@import "../core/varibles";
+.services-nav{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  background: white;
+  width: 0;
+  height:90px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all .9s;
+  ul{
+    display: flex;
+    padding-left: 50px;
+    li{
+      list-style-type: none;
+      padding-right: 40px;
+      a{
+        color: rgb(192, 192, 192);
+        text-decoration: none;
+        font-size: 18px;
+        transition: all .3s;
+        &:hover{
+          color: $black-color;
+        }
+        &.active{
+          color: $black-color;
+        }
+      }
+    }
+  }
+  }
+.list-services{
+  padding-bottom: 50px;
+  ul{
+    display: flex;
+    li{
+      list-style-type: none;
+      padding-right: 40px;
+      a{
+        color: rgb(114, 114, 114);
+        text-decoration: none;
+        font-size: 18px;
+        transition: all .3s;
+        &:hover{
+          color: $white-color;
+        }
+        &.active{
+          color: $white-color;
+        }
+      }
+    }
+  }
+}

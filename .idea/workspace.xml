@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e3d8ef4-0ca1-4394-94fa-f7bc4167c9f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ihBNG3JJFrThk8sAVSMqARkOZa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cfd-learn/Boho-decor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3d8ef4-0ca1-4394-94fa-f7bc4167c9f9" name="Default Changelist" comment="" />
+      <created>1602349901575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602349901575</updated>
+      <workItem from="1602349902734" duration="113000" />
+      <workItem from="1602350026961" duration="90000" />
+      <workItem from="1602350266745" duration="114000" />
+      <workItem from="1602417491255" duration="383000" />
+      <workItem from="1602418270058" duration="30000" />
+      <workItem from="1602578986488" duration="46000" />
+      <workItem from="1603127710501" duration="124000" />
+      <workItem from="1603346123387" duration="535000" />
+      <workItem from="1603364229611" duration="4989000" />
+      <workItem from="1603384742580" duration="2937000" />
+      <workItem from="1603422385977" duration="12471000" />
+      <workItem from="1603448606805" duration="1736000" />
+      <workItem from="1603454779131" duration="9447000" />
+      <workItem from="1603504163491" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1603504220760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603504220760" />
+    <state x="350" y="78" key="SettingsEditor" timestamp="1603364390799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603364390799" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1603425071430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603425071430" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+
+@import "../core/varibles";
+
+.contact-content{
+    padding-top: 200px;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        height: 500px;
+        >h4{
+            font-size: 75px;
+            color: $white-color;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        .content__row{
+            display:flex;
+            margin-top: 50px;
+            gap: 80px;
+            .left{
+                h4{
+                    color: $white-color;
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: $white-color;
+                    font-size: 18px;
+                }
+            }
+            .right{
+                h4{
+                    color: $white-color;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: $white-color;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
